@@ -26,6 +26,7 @@ def create_voice_note():
 
 def show_all_notes():
     notes = load_notes()
+
     for i, note in enumerate(notes, 1):
         print(f"\n{i}. {note['title']} ({note['timestamp']})")
         print(note['content'])
@@ -33,6 +34,7 @@ def show_all_notes():
 def search_voice_notes():
     keyword = input("Enter keyword to search: ").strip().lower()
     results = search_notes(keyword)
+
     if not results:
         print("No matching notes found.")
     else:
@@ -42,7 +44,7 @@ def search_voice_notes():
 
 def main():
     while True:
-        print("\n🗒️  Voice Notes Menu")
+        print("\nVoice Notes Menu")
         print("1. Create new voice note")
         print("2. View all notes")
         print("3. Search notes")
@@ -57,10 +59,11 @@ def main():
         elif choice == "3":
             search_voice_notes()
         elif choice == "4":
-            print("Goodbye!")
+            print("Exit")
             break
         else:
-            print("Invalid choice. Try again.")
+            print("Invalid choice.")
 
 if __name__ == "__main__":
-    main()
+    # main()
+    show_all_notes()

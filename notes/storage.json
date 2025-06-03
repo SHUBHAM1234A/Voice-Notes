@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Grocery list",
+    "content": "Buy milk, eggs, bread, and bananas.",
+    "timestamp": "2025-06-01 09:30",
+    "tags": ["personal", "shopping"]
+  },
+  {
+    "title": "Meeting with Rahul",
+    "content": "Discussed the design changes and next sprint planning.",
+    "timestamp": "2025-06-01 14:15",
+    "tags": ["work", "meeting"]
+  },
+  {
+    "title": "Study Notes - Physics",
+    "content": "Revised electrostatics and capacitors. Practice problems need work.",
+    "timestamp": "2025-06-02 18:00",
+    "tags": ["study", "physics"]
+  },
+  {
+    "title": "App idea",
+    "content": "A voice-to-note productivity app with search and tag support.",
+    "timestamp": "2025-06-02 20:42",
+    "tags": ["ideas", "project"]
+  }
+]
